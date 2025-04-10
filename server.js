@@ -14,16 +14,22 @@ const sources = [
   (id) => `https://vidsrc.su/embed/movie/${id}`,
   (id) => `https://player.autoembed.cc/embed/movie/${id}`,
   (id) => `https://player.smashy.stream/movie/${id}`,
-  (id) => `https://2anime.xyz/embed/${id}-episode-1`,
-  (id) => `https://www.2embed.cc/embed/${id}`,
-  (id) => `https://www.nontongo.win/embed/movie/${id}`,
-  (id) => `https://vidlink.pro/movie/${id}?primaryColor=#FFFFFF&secondaryColor=#FFFFFF&iconColor=#FFFFFF&autoplay=false`,
-  (id) => `https://vidlink.pro/movie/${id}?player=jw&multiLang=true&primaryColor=#FFFFFF&secondaryColor=#FFFFFF&iconColor=#FFFFFF`,
-  (id) => `https://vidbinge.dev/embed/movie/${id}`,
-  (id) => `https://multiembed.mov/?video_id=${id}&tmdb=1`,
+  (id) => `https://vidsrc.to/embed/movie/${id}`,
   (id) => `https://multiembed.mov/directstream.php?video_id=${id}&tmdb=1`,
   (id) => `https://vidsrc.icu/embed/movie/${id}`,
-  (id) => `https://vidsrc.to/embed/movie/${id}`,
+  (id) => `https://vidlink.pro/movie/${id}?primaryColor=#FFFFFF&secondaryColor=#FFFFFF&iconColor=#FFFFFF&autoplay=false`,
+  (id) => `https://multiembed.mov/?video_id=${id}&tmdb=1`,
+
+
+
+
+  
+  (id) => `https://www.2embed.cc/embed/${id}`,
+  (id) => `https://www.nontongo.win/embed/movie/${id}`,
+  (id) => `https://vidlink.pro/movie/${id}?player=jw&multiLang=true&primaryColor=#FFFFFF&secondaryColor=#FFFFFF&iconColor=#FFFFFF`,
+  (id) => `https://vidbinge.dev/embed/movie/${id}`,
+  
+  (id) => `https://2anime.xyz/embed/${id}-episode-1`,
 ];
 
 const ERROR_INDICATORS = [
